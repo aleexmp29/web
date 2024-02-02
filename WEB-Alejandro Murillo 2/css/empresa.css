@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+    .fondo {
+        height: auto;
+        min-height: 150vh;
+        width: auto;
+        color: #f8f8f8;
+        background-color: black;
+        
+      }
+      .navbar {
+        display: flex;
+        justify-content: space-between;
+        padding: 2.5em;
+        background-color: rgb(18, 149, 170);
+        font-family:Georgia, 'Times New Roman', Times, serif;
+      }
+      .logo {
+        margin-left: 2%;
+        margin-top: -4px;
+        font-size: 65%;
+      }
+      .logo span {
+        color: rgb(236, 235, 240) ;
+        
+      }
+      .menu {
+        display: flex ;
+        width: 50%;
+        margin-top: 5px;
+        justify-content: space-around;
+      }
+      .menu  li {
+        list-style: none;
+      
+      }
+      .menu a {
+        color: #fff;
+        text-decoration: none;
+    
+      }
+  
+     nav ul li a:before {
+        display:flex;
+        content: '';
+        width: 0%;
+        background: #444;
+        height: 4px;
+        top:0;
+        position:relative;
+        transition: width 0.2s;
+     }
+  
+     nav ul li a:hover:before {
+        width: 100%;
+        }
+   
+   
+
+   
+    main{
+        text-align: center;
+    }
+    
+    .Pagina1{
+      margin:  auto;
+      padding: 20px;
+      max-width: 50em;
+      
+
+    }
+    .imgmer{
+        padding-top: 3em;
+        margin-bottom: 2em;
+    }
+    .tema2{
+      font-size:xx-large;
+      font-weight: bold;
+      color: aqua;
+      padding-top: 1em;
+    }
+
+
+
+
+
+
+    
+    .Mercado{
+      max-width: 1200px;
+      margin:  auto;
+      padding: 10px;
+      background-image: linear-gradient(rgb(0, 0, 0), rgb(117, 255, 198));
+      margin-top: 2em;
+      
+      }
+    
+      .merh2{
+        padding-top: 1em;
+        padding-left: 1em;
+        padding-bottom: 0.5em;
+      }
+
+      .imgmer{
+        padding-top: 1em;
+      }
+
+
+    .MercadoTitulo{
+      text-align: center;
+      color: aqua;
+    }
+ 
+
+
+
+
+
+
+    /*Segmentación*/
+.fondoseg{
+  background: linear-gradient(90deg, #22c1c3, #6ce073);
+  color: #f8f8f8;
+}
+.seg{
+  max-width: 1000px;
+  margin:  auto;
+  padding: 10px;
+}
+.segh1{
+  color: #000000;
+  font-size: 30px;
+  padding-bottom: 0.5em;
+  padding-top: 1em;
+}
+.seg h2{
+  padding: 1em;
+}
+
+
+
+    table {
+      color: #fff;
+      font-size: 14px;
+      table-layout: fixed; /* todas las celdas se adapta al mismo tamaño*/
+      border-collapse: collapse; /* un solo borde el separate son 2 */
+      background: linear-gradient(rgb(111, 224, 224) rgb(37, 225, 71));
+      margin: auto;
+      margin-top: 2em; 
+      margin-bottom: 2em;
+  }
+  
+  thead {
+      background: rgb(48, 209, 209);
+      
+  }
+  
+  th {
+      padding: 20px 15px ;
+      font-weight: 700;
+      text-transform: uppercase; /*texto en mayuscula*/
+      border-bottom: solid 2px rgba(0, 0, 0, 0.925); /* poner las lineas solo verticales*/
+  }
+  
+  td {
+      padding: 15px;
+      border: solid 1px rgba(0, 0, 0, 0.219)
+  }
+  
+  
+  tbody tr td {
+      cursor: pointer;
+      
+  }
+  
+  tbody tr:hover {
+      background: rgba(24, 147, 224, 0.4);
+  }
+
+
+
+
+  /*tipo de mercado*/
+
+  .tipos{
+    max-width: 1200px;
+    padding: 20px;
+    margin:   auto;
+    padding-top: 3em;
+    text-align: justify;
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(117, 255, 198));
+    
+  }
+
+
+  .tipos h2{
+border: #444 solid 3px;
+margin-top: 1em;
+}
+.tipos p{
+padding-top: 0.5em;
+}
+.tipos h1{
+text-align: center;
+color: aqua;
+}
+
+.imgtipos{
+margin-top: 3em ;
+padding-left: 12em;
+margin-bottom: 4em;
+}
+
+
+  /*estudios*/
+  .estudio{
+    max-width: 1200px;
+    padding: 20px;
+    margin:   auto;
+    padding-top: 3em;
+    text-align: justify;
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(117, 255, 198));
+  }
+
+  
+  .estudio h2{
+    border:black double 4px;
+    margin-top: 1em;
+  }
+  .estudio p{
+    padding-top: 0.5em;
+  }
+  .estudio h1{
+    padding-top: 1em;
+    text-align: center;
+    color: aqua;
+  }
+  
+  .estudio .img2{
+    margin-top: 3em ;
+    padding-left: 12em;
+  margin-bottom: 4em;
+  }
+  .estudio .img1{
+    margin-top: 3em ;
+    padding-left: 17em;
+  margin-bottom: 4em;
+  }
+
+  .estudio h3{
+    color: rgb(14, 241, 222);
+    padding-top: 1em;
+  }
+
+  .estudio ol{
+    font-size: 120%;
+  list-style-image: linear-gradient(to left bottom, rgb(0, 247, 255), rgb(3, 3, 37));
+  margin-left: 1em;
+  
+  }

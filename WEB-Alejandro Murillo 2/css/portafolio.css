@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper {
+  height: 100vh;
+  width: auto;
+  background-color: rgb(17, 3, 3) ;
+  color: #fff;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 2em;
+  background-color: black;
+}
+.brand {
+    margin-left: 1%;
+  margin-top: -4px;
+  font-size: 65%;
+}
+.brand span {
+  color: rgb(204, 63, 28) ;
+  
+}
+.menu {
+  display: flex ;
+  width: 40%;
+  margin-top: 5px;
+  justify-content: space-around;
+}
+.menu  li {
+  list-style: none;
+
+}
+.menu a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px; 
+}
+
+.menu li:hover a{ /*detras de color de fondo del menu al pasar el raton*/
+  background-color: rgb(240, 136, 10);
+ 
+}
+
+.menu .active {
+  color: rgb(231, 109, 8);
+ 
+}
+
+
+.menu li a:hover {
+  color: rgb(255, 255, 255);
+}
+
+
+.main {
+  margin: 0 auto;
+  width: 70vw;
+  height: 80vh;
+  display: grid;
+  grid-template-columns: repeat(2,1fr); /* Primer valor son las columnas que hay y el segundo valor es la medida de cada columna*/
+  align-items: center;
+  gap:4em; /*separación de las columnas*/
+}
+
+h1 {
+  font-size: 2em;
+}
+
+.info-content span {
+  color: rgb(255, 81, 0);
+}
+
+.download-cv {
+  padding: 10px 20px;
+  background-color: rgb(255, 102, 0);
+  border: none;
+  border-radius: 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  box-shadow: 1px 3px 11px -5px rgba(231, 160, 102, 0.69);
+}
+
+.download-cv:hover {
+  background-color: azure;
+  box-shadow: none;
+}
+
+.main img {
+  border:  3px double rgb(255, 0, 0);
+  width: 400px;
+  height: 600px;
+  margin-left: 90px;
+}
+
+
+
+
+
+
+/*wallpaper*/
+
+.wrapper2 {
+  
+  background-color: rgb(248, 218, 194) ;
+  color: #fff;}
+
+.titulo2 {
+padding-top: 1em;
+text-align: center;
+font-size:35px;
+color: rgb(255, 115, 0);
+}
+.p2{
+    text-align: center;
+    font-weight: bold;
+}
+.wall{
+  height: 100vh;
+   display: flex;
+   padding-bottom:1em ;
+   justify-content: center;
+   padding-top: 2em;
+
+}
+.wall1 {
+    padding: 1em;
+
+    width: 450px;
+    height: 675px;
+}
+.wall3 {
+    padding: 1em;
+    width: 450px;
+    height: 675px;
+}
+.wall4 {
+    padding: 1em;
+    width: 450px;
+    height: 675px;
+}
+
+
+
+/*sobre mi */
+
+.sobremi{
+
+  height: 100vh;
+    background-color: rgb(22, 4, 4);
+    color: #fff;
+    padding: 50px 20px;
+}
+.sobremi .contenido-seccion{
+    max-width: 1100px;
+    margin: auto;
+    justify-content: center;
+}
+.sobremi h2{
+    font-size: 48px;
+    text-align: center;
+    padding: 30px 0;
+
+}
+.sobremi .contenido-seccion p{
+    font: 18px;
+    line-height: 22px; /*separacion linea datos*/
+    margin-bottom: 40px;
+}
+.sobremi .contenido-seccion p span{
+    color: #b62e1c;
+    font-weight: bold;
+}
+.sobremi .fila{
+    display: flex;
+}
+.sobremi .fila .col
+{
+    width: 50%;
+}
+.sobremi .fila .col h3{
+  font-size: 28px;
+  margin-bottom: 25px;
+}
+.sobremi .fila .col ul{
+  list-style: none; /*quita puntos*/
+}
+.sobremi .fila .col ul li{
+  margin: 30px 0; /* separacion de las lineaas de datos personales */
+}
+.sobremi .fila .col ul li strong{
+  display: inline-block;   /*colocacion en linea*/
+  color: #b62e1c;
+  width: 130px;
+}
+.col ul li span{
+  background-color: #b6401c;
+  padding: 3px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.contenedor-iconos{
+  display: flex;
+  flex-wrap: wrap; /* iconos obligados a estar en una misma linea  controla la dirrecion de los elementos*/
+}
+  
+.iconos{
+  width: 150px;
+  height: 100px;
+  background-color: rgb(196, 71, 33);
+  border-radius: 20px;
+  margin: 0 25px 25px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+.iconos i{  /*tamaño de los iconos*/
+  font-size: 30px;
+}
+
+.iconos img {
+  width: 30px;
+  height: 30px;
+}
+
+
+
+
+
+
+
+
+.footer {
+  background-color: rgb(22, 4, 4);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+  height: 200px;
+  padding: 2em;
+  color: aliceblue;
+}
+
+
+
+.footer-content h2 {
+  font-size: 2.5em;
+
+}
+
+.footer-content h5 {
+  font-size: 1em;
+  text-align: center;
+  color: rgb(230, 101, 101);
+}
+
+
+.redes {
+  display: flex;
+  justify-content: space-evenly;
+  width: 300px;
+  margin-top: 1em;
+}
+
+.redes i {
+  font-size: 1.5em;
+}
+
+hr{
+  height: 10px;
+  background-color: rgb(85, 18, 18);
+}
